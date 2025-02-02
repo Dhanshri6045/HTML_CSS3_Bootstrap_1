@@ -1,0 +1,169 @@
+/**{
+    border: 1px solid;
+} 
+*/
+nav {
+    font-family: "Roboto", sans-serif;
+
+}
+main{
+    color: gray;
+   
+}
+#hero {
+    background-image: url(./images/background/hero_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   height: 600px;
+}
+.navbar-nav .nav-link.active{
+    color: #46ddb0; 
+}
+.nav-item a:hover{
+    color: #46ddb0;
+}
+.nav-link .active{
+    color: #46ddb0;  
+}
+.site{
+    color: gray;
+}
+.container1 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#hero .fs {
+    font-size: 30px;
+}
+#hero .btn {
+    background: #46ddb0;
+    border-color: #46ddb0;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.site {
+    padding: 40px 0px;
+    font-family: "Roboto", sans-serif;
+}
+.site .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.img {
+    position: relative;
+}
+#button-addon1{
+  background-color: #46ddb0; 
+  border-radius:#46ddb0 ; 
+}
+
+.img1{
+    background-image: url(./images/illustration/about_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 150px 0px;
+   position: relative;
+}
+
+.experience {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #007bff;
+    width: 200px;
+}
+.experience .year {
+    font-weight: 850;
+    color: white;
+    font-size: 40px;
+    line-height: 1.5;
+}
+.experience .caption {
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+.subtitle1{
+    letter-spacing: 2px;
+    color: #46ddb0;
+}
+.subtitle2{
+    font-weight: 900;
+    font-size:25px;
+}
+#Learn{
+    background-color: #46ddb0;
+    border-color:#46ddb0;
+    color:white;
+    padding: 10px 30px;
+}
+.text-muted{
+    color: #ccc;
+    font-size: 12px;
+}
+.socialcircle li{
+    height: 30px;
+    width: 30px;
+    background-color: #777;
+    font-size: 13px;
+}
+#Service i{
+    font-size:3rem;
+    font-weight:70px;
+}
+#Service a{
+    color: #21b589;
+}
+#Service .servicesize{
+    font-size: 20px;
+    font-weight: 400;
+}
+#people i{
+    font-size:2.5rem;
+    font-weight:70px;
+}
+#part1 a{
+    color:#46ddb0;
+}
+.meta{
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.form-contol{
+    height: 43px;
+    border:1px solid #ced4da;
+}
+#message {
+    height: auto;
+}
+footer{
+    background-color: #333333;
+}
+.formbox input::placeholder {
+    color: gray;
+}
+.append{
+    position: absolute;
+    top:63%;
+    left:40%;
+}
+.meta1 li a{
+    color: #46ddb0;
+}
+@media only screen and (min-width:992px) {
+    main{
+        margin-top: -30px;
+    }
+    #hero h1 {
+        font-size:48px;
+    }
+    .experience {
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+      
+    }
+}
